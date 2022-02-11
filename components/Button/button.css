@@ -140,24 +140,24 @@
 }
 
 .btn-solid-iframe {
-  width: 575px;
-  height: 275px;
+  width: 37rem;
+  height: 17rem;
   border: 0;
   transform: scale(1);
   overflow: hidden;
 }
 
 .btn-outline-iframe {
-  width: 640px;
-  height: 270px;
+  width: 42rem;
+  height: 15.5rem;
   border: 0;
   transform: scale(1);
   overflow: hidden;
 }
 
 .btn-icon-iframe {
-  width: 565px;
-  height: 260px;
+  width: 36rem;
+  height: 16.25rem;
   border: 0;
   transform: scale(1);
   overflow: hidden;

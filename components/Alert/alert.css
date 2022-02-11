@@ -17,7 +17,6 @@
   cursor: pointer;
   border-radius: 50%;
   text-align: center;
-  font-family: monospace;
 }
 
 .alert-info {
@@ -52,7 +51,7 @@
 
 .alert-warning {
   color: var(--warning-text);
-  background-color: #ff4500;
+  background-color: var(--warning);
 }
 
 .alert-warning .close {
@@ -61,16 +60,16 @@
 }
 
 .std-alert-iframe {
-  width: 320px;
-  height: 300px;
+  width: 21rem;
+  height: 18.5rem;
   border: 0;
   transform: scale(1);
   overflow: hidden;
 }
 
 .dismiss-alert-iframe {
-  width: 365px;
-  height: 356px;
+  width: 22rem;
+  height: 22.5rem;
   border: 0;
   transform: scale(1);
   overflow: hidden;
