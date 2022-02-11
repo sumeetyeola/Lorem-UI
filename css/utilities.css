@@ -1,8 +1,22 @@
 :root {
   --primary: #2f4254;
+  --primary-hover: #202e3a;
+  --primary-text: #bae6fd;
+  --secondary: #d5a249;
+  --secondary-hover: #bf9141;
+  --success: #52a552;
+  --success-hover: #499449;
+  --success-text: #dcfce7;
+  --danger: #b91c1c;
+  --danger-hover: #991b1b;
+  --danger-text: #fee2e2;
+  --warning: #ff4500;
+  --warning-hover: #e53e00;
+  --warning-text: #ffedd5;
   --pink: #ff363c;
   --white: #fff;
 }
+
 /* Display */
 .disp-flex {
   display: flex;

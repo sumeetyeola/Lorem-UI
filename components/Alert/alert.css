@@ -1,0 +1,76 @@
+.alert {
+  width: 25rem;
+  margin: 20px 0;
+  padding: 20px;
+  position: relative;
+  border-radius: 5px;
+  font-size: 0.9rem;
+}
+
+.close {
+  width: 30px;
+  height: 30px;
+  font-size: 1.2rem;
+  position: absolute;
+  top: 1.2rem;
+  right: 1.5rem;
+  cursor: pointer;
+  border-radius: 50%;
+  text-align: center;
+}
+
+.alert-info {
+  color: var(--primary-text);
+  background-color: var(--primary);
+}
+
+.alert-info .close {
+  color: var(--primary-text);
+  border: 1px solid var(--primary-text);
+}
+
+.alert-success {
+  color: var(--success-text);
+  background-color: var(--success);
+}
+
+.alert-success .close {
+  color: var(--success-text);
+  border: 1px solid var(--success-text);
+}
+
+.alert-danger {
+  color: var(--danger-text);
+  background-color: var(--danger);
+}
+
+.alert-danger .close {
+  color: var(--danger-text);
+  border: 1px solid var(--danger-text);
+}
+
+.alert-warning {
+  color: var(--warning-text);
+  background-color: var(--warning);
+}
+
+.alert-warning .close {
+  color: var(--warning-text);
+  border: 1px solid var(--warning-text);
+}
+
+.std-alert-iframe {
+  width: 21rem;
+  height: 18.5rem;
+  border: 0;
+  transform: scale(1);
+  overflow: hidden;
+}
+
+.dismiss-alert-iframe {
+  width: 22rem;
+  height: 22.5rem;
+  border: 0;
+  transform: scale(1);
+  overflow: hidden;
+}
