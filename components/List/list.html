@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>List | LoremUI</title>
+    <link rel="stylesheet" href="list.css" />
+    <link rel="stylesheet" href="/css/component-page.css" />
+    <link rel="stylesheet" href="/css/header.css" />
+    <link rel="stylesheet" href="/css/utilities.css" />
+  </head>
+  <body>
+    <header class="header">
+      <a class="brandname-link" href="/index.html">
+        <span class="brandname">
+          <img class="brandname-logo" src="/Assets/Lorem-logo.png" alt="" />
+          <span class="brandname-title">Lorem UI</span>
+        </span>
+      </a>
+    </header>
+    <nav class="site-nav">
+      <div class="nav-main-heading nav-getstarted">
+        <a href="">Getting Started</a>
+      </div>
+
+      <div class="nav-main-heading">Components</div>
+      <ul class="nav-comp-section">
+        <li class="component-links">
+          <a href="/components/Alert/alert.html">Alert</a>
+        </li>
+        <li class="component-links">
+          <a href="/components/Avatar/avatar.html">Avatar</a>
+        </li>
+        <li class="component-links">
+          <a href="/components/Badge/badge.html">Badge</a>
+        </li>
+        <li class="component-links">
+          <a href="/components/Buttons/button.html">Button</a>
+        </li>
+        <li class="component-links">
+          <a href="/components/Card/card.html">Card</a>
+        </li>
+        <li class="component-links">
+          <a href="">Image</a>
+        </li>
+        <li class="component-links">
+          <a href="">Input</a>
+        </li>
+        <li class="component-links">
+          <a class="component-active" href="/components/List/list.html">List</a>
+        </li>
+        <li class="component-links">
+          <a href="">Modal</a>
+        </li>
+        <li class="component-links">
+          <a href="">Navigation</a>
+        </li>
+        <li class="component-links">
+          <a href="">Toast</a>
+        </li>
+      </ul>
+    </nav>
+    <main class="comp-disp">
+      <h1 class="comp-disp-header">List</h1>
+      <h2 class="comp-sub-header">Simple List</h2>
+      <div class="comp-disp-container my-05 list-container">
+        <ul class="list my-1">
+          <span class="list-heading">Top Searches</span>
+          <li>Shoes</li>
+          <li>Jackets</li>
+          <li>Joggers</li>
+          <li>Jeans</li>
+          <li>Kurti</li>
+          <li>Shirts</li>
+          <li>Top</li>
+        </ul>
+        <iframe
+          src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cul%2520class%253D%2522list%2520my-1%2522%253E%250A%2520%253Cspan%2520class%253D%2522list-heading%2522%253ETop%2520Searches%253C%252Fspan%253E%250A%2509%253Cli%253EShoes%253C%252Fli%253E%250A%2509%253Cli%253EJackets%253C%252Fli%253E%250A%2509%253Cli%253EJoggers%253C%252Fli%253E%250A%2509%253Cli%253EJeans%253C%252Fli%253E%250A%2509%253Cli%253EKurti%253C%252Fli%253E%250A%2509%253Cli%253EShirts%253C%252Fli%253E%250A%2509%253Cli%253ETop%253C%252Fli%253E%250A%253C%252Ful%253E"
+          class="simple-list-iframe my-1"
+          sandbox="allow-scripts allow-same-origin"
+        >
+        </iframe>
+      </div>
+      <hr />
+      <h2 class="comp-sub-header">Checkbox List</h2>
+      <div class="comp-disp-container my-05 list-container">
+        <ul class="list-checkbox">
+          <span>
+            <button>-</button>
+          </span>
+          <span>
+            <button class="list-heading">Brands</button>
+          </span>
+          <li><input type="checkbox" />Adidas</li>
+          <li><input type="checkbox" />Nike</li>
+          <li><input type="checkbox" />Puma</li>
+          <li><input type="checkbox" />Reebok</li>
+        </ul>
+      </div>
+      <iframe
+        src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cul%2520class%253D%2522list-checkbox%2522%253E%250A%2509%253Cspan%253E%250A%2509%2520%2520%253Cbutton%253E-%253C%252Fbutton%253E%250A%2509%253C%252Fspan%253E%250A%2520%2520%2520%2520%253Cspan%253E%250A%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522list-heading%2522%253EBrands%253C%252Fbutton%253E%250A%2509%253C%252Fspan%253E%250A%2509%2520%2520%253Cli%253E%253Cinput%2520type%253D%2522checkbox%2522%2520%252F%253EAdidas%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%253Cli%253E%253Cinput%2520type%253D%2522checkbox%2522%2520%252F%253ENike%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%253Cli%253E%253Cinput%2520type%253D%2522checkbox%2522%2520%252F%253EPuma%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%253Cli%253E%253Cinput%2520type%253D%2522checkbox%2522%2520%252F%253EReebok%253C%252Fli%253E%250A%253C%252Ful%253E"
+        class="checkbox-list-iframe my-1"
+        sandbox="allow-scripts allow-same-origin"
+      >
+      </iframe>
+    </main>
+  </body>
+</html>
