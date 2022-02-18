@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Toast | Lorem UI</title>
+    <link rel="stylesheet" href="toast.css" />
+    <link rel="stylesheet" href="/components/Button/button.css" />
+    <link rel="stylesheet" href="/css/component-page.css" />
+    <link rel="stylesheet" href="/css/header.css" />
+    <link rel="stylesheet" href="/css/utilities.css" />
+  </head>
+  <body>
+    <header class="header">
+      <a class="brandname-link" href="/index.html">
+        <span class="brandname">
+          <img class="brandname-logo" src="/Assets/Lorem-logo.png" alt="" />
+          <span class="brandname-title">Lorem UI</span>
+        </span>
+      </a>
+      <a href="" class="documentation-link">Documentation</a>
+    </header>
+    <nav class="site-nav">
+      <div class="nav-main-heading nav-getstarted">
+        <a href="">Getting Started</a>
+      </div>
+      <div class="nav-main-heading">Components</div>
+      <ul class="nav-comp-section">
+        <li class="component-links">
+          <a href="/components/Alert/alert.html">Alert</a>
+        </li>
+        <li class="component-links">
+          <a href="/components/Avatar/avatar.html">Avatar</a>
+        </li>
+        <li class="component-links">
+          <a href="/components/Badge/badge.html">Badge</a>
+        </li>
+        <li class="component-links">
+          <a href="/components/Button/button.html">Button</a>
+        </li>
+        <li class="component-links">
+          <a href="/components/Card/card.html">Card</a>
+        </li>
+        <li class="component-links">
+          <a href="">Image</a>
+        </li>
+        <li class="component-links">
+          <a href="">Input</a>
+        </li>
+        <li class="component-links">
+          <a href="/components/List/list.html">List</a>
+        </li>
+        <li class="component-links">
+          <a href="">Modal</a>
+        </li>
+        <li class="component-links">
+          <a href="/components/Navigation/navigation.html">Navigation</a>
+        </li>
+        <li class="component-links">
+          <a class="component-active" href="/components/Toast/toast.html"
+            >Toast</a
+          >
+        </li>
+      </ul>
+    </nav>
+    <main class="comp-disp">
+      <h1 class="comp-disp-header">Toast</h1>
+      <div class="comp-disp-contaner my-05 disp-flex">
+        <button class="btn btn-success mx-05" id="show-success-toast">
+          Success Toast
+        </button>
+        <button class="btn btn-warning mx-05" id="show-warning-toast">
+          Warning Toast
+        </button>
+        <button class="btn btn-danger mx-05" id="show-danger-toast">
+          Danger Toast
+        </button>
+        <div id="success-toast">Successful Toast!</div>
+        <div id="warning-toast">Warning Toast!</div>
+        <div id="danger-toast">Danger Toast!</div>
+      </div>
+      <iframe
+        src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cbutton%2520class%253D%2522btn%2520btn-success%2520mx-05%2522%2520id%253D%2522show-success-toast%2522%253E%250A%2509Success%2520Toast%250A%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522btn%2520btn-warning%2520mx-05%2522%2520id%253D%2522show-warning-toast%2522%253E%250A%2509Warning%2520Toast%250A%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522btn%2520btn-danger%2520mx-05%2522%2520id%253D%2522show-danger-toast%2522%253E%250A%2509Danger%2520Toast%250A%253C%252Fbutton%253E%250A%253Cdiv%2520id%253D%2522success-toast%2522%253ESuccessful%2520Toast%21%253C%252Fdiv%253E%250A%253Cdiv%2520id%253D%2522warning-toast%2522%253EWarning%2520Toast%21%253C%252Fdiv%253E%250A%253Cdiv%2520id%253D%2522danger-toast%2522%253EDanger%2520Toast%21%253C%252Fdiv%253E"
+        class="toast-iframe my-1"
+        sandbox="allow-scripts allow-same-origin"
+      >
+      </iframe>
+      <script type="text/javascript" src="./toast.js"></script>
+    </main>
+  </body>
+</html>
