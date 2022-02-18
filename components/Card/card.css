@@ -279,8 +279,8 @@
 
 .price-info-cart-update .net-price {
   width: fit-content;
-  background-color: var(--some-color-1);
-  border-left: 5px solid var(--some-color-2);
+  background-color: var(--net-price);
+  border-left: 5px solid var(--net-price-border);
   padding: 0 0.8rem;
   color: var(--black-2);
   font-size: 0.9rem;
