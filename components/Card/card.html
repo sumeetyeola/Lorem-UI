@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Card | LoremUI</title>
+    <script
+      src="https://kit.fontawesome.com/1d3a2968ad.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="card.css" />
+    <link rel="stylesheet" href="/css/component-page.css" />
+    <link rel="stylesheet" href="/css/header.css" />
+    <link rel="stylesheet" href="/css/utilities.css" />
+  </head>
+  <body>
+    <header class="header">
+      <a class="brandname-link" href="">
+        <span class="brandname">
+          <img
+            class="brandname-logo"
+            src="/Assets/Lorem-logo.png"
+            alt="LoremUI logo"
+          />
+          <span class="brandname-title">LoremUI</span>
+        </span>
+      </a>
+      <a class="documentation-link" href="">Documentation</a>
+    </header>
+    <nav class="site-nav">
+      <div class="nav-main-heading nav-getstarted">
+        <a href="">Getting Started</a>
+      </div>
+      <div class="nav-main-heading">Components</div>
+      <ul class="nav-comp-section">
+        <li class="component-links">
+          <a href="/components/Alert/alert.html">Alert</a>
+        </li>
+        <li class="component-links">
+          <a href="/components/Avatar/avatar.html">Avatar</a>
+        </li>
+        <li class="component-links">
+          <a href="/components/Badge/badge.html">Badge</a>
+        </li>
+        <li class="component-links">
+          <a href="/components/Button/button.html">Button</a>
+        </li>
+        <li class="component-links">
+          <a class="component-active" href="/components/Card/card.html">Card</a>
+        </li>
+        <li class="component-links">
+          <a href="">Image</a>
+        </li>
+        <li class="component-links">
+          <a href="">Input</a>
+        </li>
+        <li class="component-links">
+          <a href="">List</a>
+        </li>
+        <li class="component-links">
+          <a href="">Modal</a>
+        </li>
+        <li class="component-links">
+          <a href="">Navigation</a>
+        </li>
+        <li class="component-links">
+          <a href="">Toast</a>
+        </li>
+      </ul>
+    </nav>
+    <main class="comp-disp">
+      <h1 class="comp-disp-header">Card</h1>
+      <div class="comp-disp-container my-05">
+        <div class="card">
+          <img src="/Assets/card-dog.jpg" alt="" class="card-header" />
+          <div class="card-body">
+            <div class="card-heading">Card Heading</div>
+            <div class="card-details">
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Earum
+              placeat nihil tempore velit distinctio quasi soluta! Quidem nulla
+              vitae nisi.
+            </div>
+          </div>
+          <button class="btn btn-secondary">Read More..</button>
+        </div>
+      </div>
+      <iframe
+        src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522card%2522%253E%250A%2520%2520%253Cimg%2520src%253D%2522%252FAssets%252Fcard-dog.jpg%2522%2520alt%253D%2522%2522%2520class%253D%2522card-header%2522%2520%252F%253E%250A%2520%2520%253Cdiv%2520class%253D%2522card-body%2522%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-heading%2522%253ECard%2520Heading%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-details%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520Lorem%2520ipsum%252C%2520dolor%2520sit%2520amet%2520consectetur%2520adipisicing%2520elit.%2520Earum%250A%2520%2520%2520%2520%2520%2520%2520placeat%2520nihil%2520tempore%2520velit%2520distinctio%2520quasi%2520soluta%21%2520Quidem%2520nulla%250A%2520%2520%2520%2520%2520%2520%2520vitae%2520nisi.%250A%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253Cbutton%2520class%253D%2522btn%2520btn-secondary%2522%253ERead%2520More..%253C%252Fbutton%253E%250A%253C%252Fdiv%253E"
+        class="card-iframe my-1"
+        sandbox="allow-scripts allow-same-origin"
+      >
+      </iframe>
+
+      <hr />
+      <h2 class="comp-sub-header">Card with a Badge and a Dismiss Button</h2>
+      <div class="comp-disp-container disp-flex my-05">
+        <div class="card mx-3 my-2">
+          <img
+            src="/Assets/card-product.jpg"
+            alt="T-shirt card"
+            class="card-product-header"
+          />
+          <div class="card-body">
+            <div class="card-heading">USPA T-shirt</div>
+            <div class="card-price">
+              <span class="card-discount-price">₹350</span>
+              <span class="card-original-price">₹450</span>
+              <span class="card-discount">22% off</span>
+            </div>
+          </div>
+          <div class="card-badge card-badge-trend">TRENDING</div>
+          <button class="card-dismiss">&times;</button>
+          <button class="btn btn-icon btn-secondary my-1 mx-05">
+            <i class="fas fa-shopping-cart"></i>
+            <span class="label">Add to Cart</span>
+          </button>
+        </div>
+        <div class="card mx-3 my-2">
+          <img
+            src="/Assets/card-product.jpg"
+            alt="T-shirt card"
+            class="card-product-header"
+          />
+          <div class="card-body">
+            <div class="card-heading">USPA T-shirt</div>
+            <div class="card-price">
+              <span class="card-discount-price">₹350</span>
+              <span class="card-original-price">₹450</span>
+              <span class="card-discount">22% off</span>
+            </div>
+          </div>
+          <div class="card-badge card-badge-feature">FEATURED</div>
+          <i class="far fa-heart card-wishlist"></i>
+          <button class="btn btn-icon btn-secondary my-1 mx-05">
+            <i class="fas fa-shopping-cart"></i>
+            <span class="label">Add to Cart</span>
+          </button>
+        </div>
+      </div>
+      <iframe
+        src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522card%2520mx-3%2520my-2%2522%253E%250A%2509%253Cimg%250A%2509%2520src%253D%2522%252FAssets%252Fcard-product.jpg%2522%250A%2509%2520alt%253D%2522T-shirt%2520card%2522%250A%2509%2520class%253D%2522card-product-header%2522%250A%2509%252F%253E%250A%2509%253Cdiv%2520class%253D%2522card-body%2522%253E%250A%2509%2509%253Cdiv%2520class%253D%2522card-heading%2522%253EUSPA%2520T-shirt%253C%252Fdiv%253E%250A%2509%2509%253Cdiv%2520class%253D%2522card-price%2522%253E%250A%2509%2509%2509%253Cspan%2520class%253D%2522card-discount-price%2522%253E%25E2%2582%25B9350%253C%252Fspan%253E%250A%2509%2509%2509%253Cspan%2520class%253D%2522card-original-price%2522%253E%25E2%2582%25B9450%253C%252Fspan%253E%250A%2509%2509%2509%253Cspan%2520class%253D%2522card-discount%2522%253E22%2525%2520off%253C%252Fspan%253E%250A%2509%2509%253C%252Fdiv%253E%250A%2509%253C%252Fdiv%253E%250A%2509%253Cdiv%2520class%253D%2522card-badge%2520card-badge-feature%2522%253EFEATURED%253C%252Fdiv%253E%250A%2509%253Ci%2520class%253D%2522far%2520fa-heart%2520card-wishlist%2522%253E%253C%252Fi%253E%250A%2509%253Cbutton%2520class%253D%2522btn%2520btn-icon%2520btn-secondary%2520my-1%2520mx-05%2522%253E%250A%2509%2509%253Ci%2520class%253D%2522fas%2520fa-shopping-cart%2522%253E%253C%252Fi%253E%250A%2509%2509%253Cspan%2520class%253D%2522label%2522%253EAdd%2520to%2520Cart%253C%252Fspan%253E%250A%2509%253C%252Fbutton%253E%250A%253C%252Fdiv%253E"
+        class="badge-card-iframe my-1"
+        sandbox="allow-scripts allow-same-origin"
+      >
+      </iframe>
+      <hr />
+      <h2 class="comp-sub-header">Out of Stock Card</h2>
+      <div class="comp-disp-container">
+        <div class="card my-2">
+          <div class="card-out-of-stock">
+            <img
+              src="/Assets/card-product.jpg"
+              alt="card-product"
+              class="card-product-header"
+            />
+            <div class="card-body">
+              <div class="card-heading">USPA T-shirt</div>
+              <div class="card-price">
+                <span class="card-discount-price">₹350</span>
+                <span class="card-original-price">₹450</span>
+                <span class="card-discount">22% off</span>
+              </div>
+            </div>
+            <button class="card-dismiss">&times;</button>
+            <button class="btn btn-icon btn-secondary my-1 mx-05">
+              <i class="fas fa-shopping-cart"></i>
+              <span class="label">Add to Cart</span>
+            </button>
+          </div>
+          <div class="out-of-stock-text">Out of Stock</div>
+        </div>
+      </div>
+      <iframe
+        src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522card%2520my-2%2522%253E%250A%2509%253Cdiv%2520class%253D%2522card-out-of-stock%2522%253E%250A%2509%2509%253Cimg%250A%2509%2509%2520%2520%2520src%253D%2522%252FAssets%252Fcard-product.jpg%2522%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520alt%253D%2522T-shirt%2520card%2522%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520class%253D%2522card-product-header%2522%250A%2509%2509%252F%253E%250A%2509%2509%253Cdiv%2520class%253D%2522card-body%2522%253E%250A%2509%2509%2509%253Cdiv%2520class%253D%2522card-heading%2522%253EUSPA%2520T-shirt%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-price%2522%253E%250A%2509%2509%2509%2509%253Cspan%2520class%253D%2522card-discount-price%2522%253E%25E2%2582%25B9350%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522card-original-price%2522%253E%25E2%2582%25B9450%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522card-discount%2522%253E22%2525%2520off%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2509%2509%253C%252Fdiv%253E%250A%2509%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cbutton%2520class%253D%2522card-dismiss%2522%253E%2526times%253B%253C%252Fbutton%253E%250A%2509%253Cbutton%2520class%253D%2522btn%2520btn-icon%2520btn-secondary%2520my-1%2520mx-05%2522%253E%250A%2509%2509%253Ci%2520class%253D%2522fas%2520fa-shopping-cart%2522%253E%253C%252Fi%253E%250A%2509%2509%253Cspan%2520class%253D%2522label%2522%253EAdd%2520to%2520Cart%253C%252Fspan%253E%250A%2509%253C%252Fbutton%253E%250A%253C%252Fdiv%253E"
+        class="out-of-stock-card-iframe my-1"
+        sandbox="allow-scripts allow-same-origin"
+      >
+      </iframe>
+      <hr />
+      <h2 class="comp-sub-header">Horizontal Card</h2>
+      <div class="comp-disp-container my-1">
+        <div class="card-horizontal">
+          <a href="...">
+            <img
+              src="/Assets/card-product.jpg"
+              alt="T-shirt card"
+              class="card-header"
+            />
+          </a>
+          <div class="card-horizontal-body">
+            <div class="card-heading">
+              <a href="...">Card Heading</a>
+            </div>
+            <div class="card-update-info">
+              <div class="cart-size">
+                <span>Size</span>
+                <span>S</span>
+                <i class="fas fa-angle-down fa-xs"></i>
+              </div>
+              <div class="cart-qty">
+                <span>Qty</span>
+                <span>1</span>
+                <i class="fas fa-angle-down fa-xs"></i>
+              </div>
+            </div>
+            <div class="price-info-cart-update">
+              <div class="product-saving">
+                Savings : <span class="cart-total-saving-text">₹100</span>
+              </div>
+              <div class="price-info-top">
+                <div class="original-price">₹ 450.00</div>
+                <div class="discount">(22%)</div>
+              </div>
+              <div class="net-price">₹ 350.00</div>
+              <div class="cart-actions">
+                <div class="btn-delete">Delete</div>
+                <div class="btn-save-wishlist">
+                  <i class="far fa-heart"></i>
+                  <span>Move to Wishlist</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <iframe
+        src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522card-horizontal%2522%253E%250A%2509%253Ca%2520href%253D%2522...%2522%253E%250A%2509%2509%2520%253Cimg%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520src%253D%2522%252FAssets%252Fcard-product.jpg%2522%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520alt%253D%2522T-shirt%2520card%2522%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520class%253D%2522card-header%2522%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%252F%253E%250A%2509%253C%252Fa%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-horizontal-body%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-heading%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ca%2520href%253D%2522...%2522%253ECard%2520Heading%253C%252Fa%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-update-info%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522cart-size%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%253ESize%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%253ES%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-angle-down%2520fa-xs%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522cart-qty%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%253EQty%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%253E1%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-angle-down%2520fa-xs%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522price-info-cart-update%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522product-saving%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520Savings%2520%253A%2520%253Cspan%2520class%253D%2522cart-total-saving-text%2522%253E%25E2%2582%25B9100%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522price-info-top%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522original-price%2522%253E%25E2%2582%25B9%2520450.00%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522discount%2522%253E%2822%2525%29%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522net-price%2522%253E%25E2%2582%25B9%2520350.00%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522cart-actions%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522btn-delete%2522%253EDelete%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522btn-save-wishlist%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522far%2520fa-heart%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%253EMove%2520to%2520Wishlist%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+        class="horizontal-card-iframe my-1"
+        sandbox="allow-scripts allow-same-origin"
+      >
+      </iframe>
+    </main>
+  </body>
+</html>
