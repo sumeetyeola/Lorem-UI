@@ -6,11 +6,11 @@ btn.addEventListener("click", () => {
   modal.style.display = "block";
 });
 
-btnClose.onClick = () => {
+btnClose.onclick = () => {
   modal.style.display = "none";
 };
 
-window.onClick = (event) => {
+window.onclick = (event) => {
   if (event.target == modal) {
     modal.style.display = "none";
   }
