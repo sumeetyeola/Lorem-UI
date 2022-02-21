@@ -1,0 +1,27 @@
+.input-basic {
+  border: none;
+  outline: none;
+  border-bottom: 2px solid var(--light-grey-3);
+  height: 2rem;
+  width: 20rem;
+  font-size: 1rem;
+  transition: all 0.5s ease-in-out;
+}
+
+.input-basic:focus {
+  border-bottom: 2px solid var(--secondary);
+  font-weight: bold;
+}
+
+.input-basic:placeholder {
+  font-size: 1rem;
+  font-weight: normal;
+}
+
+.input-iframe {
+  width: 38rem;
+  height: 10rem;
+  border: 0;
+  transform: scale(1);
+  overflow: hidden;
+}
